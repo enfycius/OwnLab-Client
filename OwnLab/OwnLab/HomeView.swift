@@ -29,6 +29,8 @@ struct HomeView: View {
                         Image(systemName: "timelapse")
                             .resizable()
                             .frame(width: 50, height: 50)
+                            .padding(10)
+                        
                         SearchBar(text: $searchText)
                             .padding(EdgeInsets(top: 10, leading: 0, bottom: 10, trailing: 0))
                     }
