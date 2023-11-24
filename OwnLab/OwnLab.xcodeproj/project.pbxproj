@@ -14,6 +14,10 @@
 		18E7D91A2B0A3A5A00D18B9E /* OwnLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7D9192B0A3A5A00D18B9E /* OwnLabTests.swift */; };
 		18E7D9242B0A3A5A00D18B9E /* OwnLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7D9232B0A3A5A00D18B9E /* OwnLabUITests.swift */; };
 		18E7D9262B0A3A5A00D18B9E /* OwnLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7D9252B0A3A5A00D18B9E /* OwnLabUITestsLaunchTests.swift */; };
+		18E7D9332B0A438100D18B9E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7D9322B0A438100D18B9E /* HomeView.swift */; };
+		18E7D9352B0A491200D18B9E /* iOSCheckboxToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7D9342B0A491200D18B9E /* iOSCheckboxToggleStyle.swift */; };
+		18E7D9372B0A4A4700D18B9E /* FindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7D9362B0A4A4700D18B9E /* FindingView.swift */; };
+		18E7D9392B0A50D000D18B9E /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7D9382B0A50D000D18B9E /* RegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		18E7D91F2B0A3A5A00D18B9E /* OwnLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OwnLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E7D9232B0A3A5A00D18B9E /* OwnLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnLabUITests.swift; sourceTree = "<group>"; };
 		18E7D9252B0A3A5A00D18B9E /* OwnLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18E7D9322B0A438100D18B9E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		18E7D9342B0A491200D18B9E /* iOSCheckboxToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCheckboxToggleStyle.swift; sourceTree = "<group>"; };
+		18E7D9362B0A4A4700D18B9E /* FindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindingView.swift; sourceTree = "<group>"; };
+		18E7D9382B0A50D000D18B9E /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 				18E7D90A2B0A3A5900D18B9E /* ContentView.swift */,
 				18E7D90C2B0A3A5A00D18B9E /* Assets.xcassets */,
 				18E7D90E2B0A3A5A00D18B9E /* Preview Content */,
+				18E7D9322B0A438100D18B9E /* HomeView.swift */,
+				18E7D9342B0A491200D18B9E /* iOSCheckboxToggleStyle.swift */,
+				18E7D9362B0A4A4700D18B9E /* FindingView.swift */,
+				18E7D9382B0A50D000D18B9E /* RegisterView.swift */,
 			);
 			path = OwnLab;
 			sourceTree = "<group>";
@@ -257,6 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E7D9372B0A4A4700D18B9E /* FindingView.swift in Sources */,
+				18E7D9352B0A491200D18B9E /* iOSCheckboxToggleStyle.swift in Sources */,
+				18E7D9332B0A438100D18B9E /* HomeView.swift in Sources */,
+				18E7D9392B0A50D000D18B9E /* RegisterView.swift in Sources */,
 				18E7D90B2B0A3A5900D18B9E /* ContentView.swift in Sources */,
 				18E7D9092B0A3A5900D18B9E /* OwnLabApp.swift in Sources */,
 			);
