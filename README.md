@@ -7,3 +7,7 @@ Development of OwnLab Client (Android/iOS)
 ### Login Screen
 
 ![Login Screen](./assets/UI/login.png)
+
+### Main Screen
+
+![Main Screen](./assets/UI/main.png)
