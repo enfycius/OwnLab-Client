@@ -108,6 +108,7 @@ struct HomeView: View {
             }
         }
         .hiddenNavigationBarStyle()
+        .toolbar(.hidden, for: .tabBar)
     }
 }
 
