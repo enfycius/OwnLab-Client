@@ -18,6 +18,8 @@
 		18E7D9352B0A491200D18B9E /* iOSCheckboxToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7D9342B0A491200D18B9E /* iOSCheckboxToggleStyle.swift */; };
 		18E7D9372B0A4A4700D18B9E /* FindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7D9362B0A4A4700D18B9E /* FindingView.swift */; };
 		18E7D9392B0A50D000D18B9E /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7D9382B0A50D000D18B9E /* RegisterView.swift */; };
+		18F7B39E2B105B6600FD8B5A /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7B39D2B105B6600FD8B5A /* SearchBar.swift */; };
+		18F7B3A02B106A8800FD8B5A /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7B39F2B106A8700FD8B5A /* ViewModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		18E7D9342B0A491200D18B9E /* iOSCheckboxToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCheckboxToggleStyle.swift; sourceTree = "<group>"; };
 		18E7D9362B0A4A4700D18B9E /* FindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindingView.swift; sourceTree = "<group>"; };
 		18E7D9382B0A50D000D18B9E /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		18F7B39D2B105B6600FD8B5A /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		18F7B39F2B106A8700FD8B5A /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 				18E7D9342B0A491200D18B9E /* iOSCheckboxToggleStyle.swift */,
 				18E7D9362B0A4A4700D18B9E /* FindingView.swift */,
 				18E7D9382B0A50D000D18B9E /* RegisterView.swift */,
+				18F7B39D2B105B6600FD8B5A /* SearchBar.swift */,
+				18F7B39F2B106A8700FD8B5A /* ViewModifiers.swift */,
 			);
 			path = OwnLab;
 			sourceTree = "<group>";
@@ -269,8 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F7B39E2B105B6600FD8B5A /* SearchBar.swift in Sources */,
 				18E7D9372B0A4A4700D18B9E /* FindingView.swift in Sources */,
 				18E7D9352B0A491200D18B9E /* iOSCheckboxToggleStyle.swift in Sources */,
+				18F7B3A02B106A8800FD8B5A /* ViewModifiers.swift in Sources */,
 				18E7D9332B0A438100D18B9E /* HomeView.swift in Sources */,
 				18E7D9392B0A50D000D18B9E /* RegisterView.swift in Sources */,
 				18E7D90B2B0A3A5900D18B9E /* ContentView.swift in Sources */,
