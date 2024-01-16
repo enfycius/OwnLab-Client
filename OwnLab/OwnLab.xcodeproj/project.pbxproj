@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A1C2C72B573A0A001E5A3A /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1C2C62B573A0A001E5A3A /* LoginRequest.swift */; };
+		18A1C2C92B573A62001E5A3A /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1C2C82B573A62001E5A3A /* LoginResponse.swift */; };
 		18E7D9092B0A3A5900D18B9E /* OwnLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7D9082B0A3A5900D18B9E /* OwnLabApp.swift */; };
 		18E7D90B2B0A3A5900D18B9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7D90A2B0A3A5900D18B9E /* ContentView.swift */; };
 		18E7D90D2B0A3A5A00D18B9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E7D90C2B0A3A5A00D18B9E /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18A1C2C62B573A0A001E5A3A /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		18A1C2C82B573A62001E5A3A /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		18E7D9052B0A3A5900D18B9E /* OwnLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OwnLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E7D9082B0A3A5900D18B9E /* OwnLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnLabApp.swift; sourceTree = "<group>"; };
 		18E7D90A2B0A3A5900D18B9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A1C2C52B5739FA001E5A3A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18A1C2C62B573A0A001E5A3A /* LoginRequest.swift */,
+				18A1C2C82B573A62001E5A3A /* LoginResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		18E7D8FC2B0A3A5900D18B9E = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +136,7 @@
 		18E7D9072B0A3A5900D18B9E /* OwnLab */ = {
 			isa = PBXGroup;
 			children = (
+				18A1C2C52B5739FA001E5A3A /* Models */,
 				18E7D9082B0A3A5900D18B9E /* OwnLabApp.swift */,
 				18E7D90A2B0A3A5900D18B9E /* ContentView.swift */,
 				18E7D90C2B0A3A5A00D18B9E /* Assets.xcassets */,
@@ -172,7 +186,6 @@
 				F1188C49856420B30B100A74 /* Pods-OwnLabTests.debug.xcconfig */,
 				1F99C83B1D6F757487EC54BE /* Pods-OwnLabTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -424,9 +437,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A1C2C72B573A0A001E5A3A /* LoginRequest.swift in Sources */,
 				18F7B39E2B105B6600FD8B5A /* SearchBar.swift in Sources */,
 				18E7D9372B0A4A4700D18B9E /* FindingView.swift in Sources */,
 				18E7D9352B0A491200D18B9E /* iOSCheckboxToggleStyle.swift in Sources */,
+				18A1C2C92B573A62001E5A3A /* LoginResponse.swift in Sources */,
 				18F7B3A02B106A8800FD8B5A /* ViewModifiers.swift in Sources */,
 				18E7D9332B0A438100D18B9E /* HomeView.swift in Sources */,
 				18E7D9392B0A50D000D18B9E /* RegisterView.swift in Sources */,
