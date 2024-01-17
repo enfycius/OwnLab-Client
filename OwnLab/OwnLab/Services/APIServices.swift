@@ -16,7 +16,7 @@ struct AuthServices {
         
         headers["content-type"] = "application/json"
         
-        APIManager.shared.callAPI(serverURL: "https://albahr.co.kr/auth/login", method: .post, headers: headers, parameters: parameters, success: { response in
+        APIManager.shared.callAPI(serverURL: Endpoint.login.absoluteUrl, method: .post, headers: headers, parameters: parameters, success: { response in
             do {
                 if let data = response.data {
                     let createLoginResponse = try JSONDecoder().decode(LoginResponse.self, from: data)
