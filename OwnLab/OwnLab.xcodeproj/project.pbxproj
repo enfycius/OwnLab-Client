@@ -10,6 +10,7 @@
 		18A1C2C72B573A0A001E5A3A /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1C2C62B573A0A001E5A3A /* LoginRequest.swift */; };
 		18A1C2C92B573A62001E5A3A /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1C2C82B573A62001E5A3A /* LoginResponse.swift */; };
 		18A1C2CC2B57ECCC001E5A3A /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1C2CB2B57ECCC001E5A3A /* APIManager.swift */; };
+		18A1C2CF2B57FB7A001E5A3A /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1C2CE2B57FB7A001E5A3A /* APIServices.swift */; };
 		18E7D9092B0A3A5900D18B9E /* OwnLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7D9082B0A3A5900D18B9E /* OwnLabApp.swift */; };
 		18E7D90B2B0A3A5900D18B9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7D90A2B0A3A5900D18B9E /* ContentView.swift */; };
 		18E7D90D2B0A3A5A00D18B9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E7D90C2B0A3A5A00D18B9E /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 		18A1C2C62B573A0A001E5A3A /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
 		18A1C2C82B573A62001E5A3A /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		18A1C2CB2B57ECCC001E5A3A /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		18A1C2CE2B57FB7A001E5A3A /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
 		18E7D9052B0A3A5900D18B9E /* OwnLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OwnLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E7D9082B0A3A5900D18B9E /* OwnLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnLabApp.swift; sourceTree = "<group>"; };
 		18E7D90A2B0A3A5900D18B9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -121,6 +123,14 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		18A1C2CD2B57FB64001E5A3A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				18A1C2CE2B57FB7A001E5A3A /* APIServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		18E7D8FC2B0A3A5900D18B9E = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +156,7 @@
 		18E7D9072B0A3A5900D18B9E /* OwnLab */ = {
 			isa = PBXGroup;
 			children = (
+				18A1C2CD2B57FB64001E5A3A /* Services */,
 				18A1C2CA2B57ECC2001E5A3A /* Utils */,
 				18A1C2C52B5739FA001E5A3A /* Models */,
 				18E7D9082B0A3A5900D18B9E /* OwnLabApp.swift */,
@@ -450,6 +461,7 @@
 			files = (
 				18A1C2C72B573A0A001E5A3A /* LoginRequest.swift in Sources */,
 				18F7B39E2B105B6600FD8B5A /* SearchBar.swift in Sources */,
+				18A1C2CF2B57FB7A001E5A3A /* APIServices.swift in Sources */,
 				18E7D9372B0A4A4700D18B9E /* FindingView.swift in Sources */,
 				18E7D9352B0A491200D18B9E /* iOSCheckboxToggleStyle.swift in Sources */,
 				18A1C2CC2B57ECCC001E5A3A /* APIManager.swift in Sources */,
